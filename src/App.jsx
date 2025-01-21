@@ -3,11 +3,12 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 import Layout from './layout'
+import Home from './pages/landing'
 
 function App() {
 
 	return (
-		<Layout />
+		<Home />
 	)
 }
 
