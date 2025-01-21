@@ -2,3 +2,10 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+:root{
+    padding: 10px 15px; 
+    background-color: #0f0f0f;
+    @apply text-white
+    
+ }
