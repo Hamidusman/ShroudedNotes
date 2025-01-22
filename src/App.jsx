@@ -7,6 +7,7 @@ import Register from './pages/register';
 import Home from './pages/landing'
 import Login from './pages/login';
 import Text from './pages/form';
+import Success from './pages/success';
 
 function App() {
 
@@ -17,6 +18,7 @@ function App() {
 		<Route path="/register" element={<Register />} />
 		<Route path="/login" element={<Login />} />
 		<Route path="/message" element={<Text />} />
+		<Route path="/success" element={<Success />} />
 	  </Routes>
 	)
 }
