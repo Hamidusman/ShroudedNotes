@@ -15,11 +15,11 @@ export default function Login() {
                     </div>
                     <div className="flex flex-col mt-8">
                     <label>Username</label>
-                        <input type="text" placeholder="Not_Hamid :)" className="border-2 rounded-md border-accent bg-primary focus:outline-none focus:bg-primary p-2" />
+                        <input type="text" placeholder="Not_Hamid :)" className="inter border-2 rounded-md border-accent bg-primary focus:outline-none focus:bg-primary p-2" />
                     </div>
                     <div className="flex flex-col mt-8">
                         <label>Password</label>
-                        <input type="password" placeholder="Password" className="border-2 rounded-md border-accent bg-primary focus:outline-none focus:bg-primary p-2" />
+                        <input type="password" placeholder="Password" className="inter border-2 rounded-md border-accent bg-primary focus:outline-none focus:bg-primary p-2" />
                         
                     </div>
                     <button className="bg-accent font-bold hover:bg-soft transition duration-500 ease-in-out text-white p-2 mt-8 rounded-md">Register</button>

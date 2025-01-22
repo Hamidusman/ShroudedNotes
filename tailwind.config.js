@@ -12,6 +12,7 @@ export default {
 			'soft': '#6D28D9',
 			'light': '#D9D9D9',
 			'warning': '#FF4B5C',
+			'gray': '#1e2824'
 
 			},
 			keyframes: {
