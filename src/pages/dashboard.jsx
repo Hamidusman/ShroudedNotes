@@ -48,8 +48,19 @@ export default function Dashboard() {
     return (
         <div className="flex flex-col lg:flex-row gap-8">
             <AlternateBar />
-            <Messages />
-            </div>
+            
+        <section className="flex flex-col h-fit flex-wrap justify-center py-10 px-3 gap-5">
+            
+        <h3 className="text-center text-2xl">Your messages... Look what we have here!</h3>
+        <div className="flex gap-5 h-fit flex-wrap justify-center">
+            <Messages 
+                message='Lorem ipsum dolor sit amet consectetur adipisicing elit. Non maiores accusamus aliquam ex iusto temporibus nam officiis saepe praesentium, cumque quibusdam recusandae nemo fugiat autem facilis obcaecati ipsam omnis in.'/>
+            
+            <Messages 
+                message='Non maiores accusamus aliquam ex iusto temporibus nam officiis saepe praesentium, cumque quibusdam recusandae nemo fugiat autem facilis obcaecati ipsam omnis in.'/>
+        </div>
+        </section>
+        </div>
             
     )
 }
