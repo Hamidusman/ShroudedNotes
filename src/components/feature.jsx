@@ -1,4 +1,5 @@
 import { useState } from "react";
+import Scroll from "./animations/scrollIn";
 
 
 export default function Features({title, description, icons}) {
@@ -9,9 +10,11 @@ export default function Features({title, description, icons}) {
   };
 
   return (
+    <Scroll>
+      
     <div
       onClick={handleActive}
-      className={`cursor-pointer flex flex-col gap-3 p-4 w-fit sm:w-[420px] h-[200px] rounded-xl 
+      className={`cursor-pointer w-full flex flex-col gap-3 p-4 sm:w-[420px] h-[200px] rounded-xl 
             transition duration-500 transform hover:scale-105 
             ${!active ? "bg-accent" : "bg-soft"} shadow-lg hover:shadow-xl`}
     >
@@ -29,5 +32,6 @@ export default function Features({title, description, icons}) {
         </p>
       )}
     </div>
+    </Scroll>
   );
 }
