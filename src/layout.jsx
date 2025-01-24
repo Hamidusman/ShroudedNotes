@@ -1,4 +1,5 @@
-import Logo from './assets/logo.png'
+
+import Logo from './imgs/logo.png'
 export default function Layout({children}) {
     return (
         <>

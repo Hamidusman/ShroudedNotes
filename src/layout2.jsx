@@ -1,5 +1,5 @@
 import { FaHamburger } from 'react-icons/fa'
-import Logo from './assets/logo.png'
+import Logo from './imgs/logo.png'
 import { IoMdMenu } from 'react-icons/io'
 import { useState } from 'react'
 import { Link } from 'react-router-dom'
@@ -12,7 +12,7 @@ export default function Layout2({children}) {
         <div className='relative w-full'>
             <header className="fixed top-0 left-0 w-full px-4 py-3 bg-primary flex justify-between items-center z-50">
                 {/* Logo */}
-                <img src={Logo} alt="Logo" className="w-[180px] md:w-[220px]" />
+                <Image src={Logo} alt="Logo" className="w-[180px] md:w-[220px]" />
                 
 
                 {/* Mobile Menu Icon */}
@@ -39,7 +39,7 @@ export default function Layout2({children}) {
                     </Link>
                     <button
                         onClick={handleMenu}
-                        className="p-2 text-start w-full"
+                        className="p-2 w-full"
                     >
                         Exit
                     </button>
