@@ -1,4 +1,4 @@
-import Sidebar from "../components/navbar";
+import AlternateBar from "../components/sidebar";
 import React from "react";
 import { Line } from "react-chartjs-2";
 import PieChart from "../components/pie";
@@ -13,6 +13,7 @@ import {
     LineElement,
     Title,
     } from "chart.js";
+import Messages from "../components/messages";
 
 
 ChartJS.register(CategoryScale, LinearScale, PointElement, LineElement, Title, Tooltip, Legend)
@@ -45,15 +46,10 @@ export default function Dashboard() {
       },
     };
     return (
-        <div className="flex gap-8">
-            <Sidebar />
-            <section className="flex ">
-                <div>
-                <PieChart /></div>
-            <div>
-            <PieChart /></div>
-            </section>
+        <div className="flex flex-col lg:flex-row gap-8">
+            <AlternateBar />
+            <Messages />
+            </div>
             
-        </div>
     )
 }
