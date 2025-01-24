@@ -16,7 +16,7 @@ export default function Home() {
             <div className=" flex justify-center animate-fadeIn py-10">
 
             <Container>
-                <p className=" px-3 py-1 text-soft border border-soft rounded-full">ShroudedNote</p>
+                <p className=" px-3 py-1 text-soft border border-soft rounded-full">WIP: ShroudedNote</p>
                 <div className=" hover-text text-center flex flex-wrap font-thin md:px-28 text-soft">
                     <BubbleText>A Novel Approach Into Anonymous Messaging</BubbleText>
                 </div>
@@ -29,11 +29,11 @@ export default function Home() {
             </Container>
             </div>
       
-            <div className="bg-[#00393345] animate px-12 py-10 flex gap-4 flex-col items-center">
+            <div className="bg-[#00393345] text-center animate px-4 md:px-12 py-10 flex gap-4 flex-col items-center">
                 
     
-                <h2 className="text-3xl md:text-4xl text-center">Why Join ShroudedNote?</h2>
-                <p className="text-[18px] inter">We have tons of reasons why you should use ShroudedNotes and not Kubbol or NGL</p>
+                <h2 className="text-3xl md:text-4xl">Why Join ShroudedNote?</h2>
+                <p className="text-[18px] px-5 inter">We have tons of reasons why you should use ShroudedNotes and not Kubbol or NGL</p>
                 <div className=" flex mt-5 flex-wrap gap-6 justify-center">
                     <Features
                         title="Easy To Use"

@@ -12,7 +12,7 @@ export default function Layout2({children}) {
         <div className='relative w-full'>
             <header className="fixed top-0 left-0 w-full px-4 py-3 bg-primary flex justify-between items-center z-50">
                 {/* Logo */}
-                <Image src={Logo} alt="Logo" className="w-[180px] md:w-[220px]" />
+                <img src={Logo} alt="Logo" className="w-[180px] md:w-[220px]" />
                 
 
                 {/* Mobile Menu Icon */}
