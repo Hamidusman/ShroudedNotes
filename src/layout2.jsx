@@ -21,25 +21,25 @@ export default function Layout2({children}) {
                 
             </header>
             {menuOpen && (
-                <nav className="text-lg mt-16 fixed top-0 left-0 w-full h-screen bg-gray text-white flex flex-col items-start p-8 gap-6 z-40">
+                <nav className="font-bold text-lg mt-16 fixed top-0 left-0 w-full h-screen bg-gray text-white flex flex-col items-start p-8 gap-6 z-40">
                 
                     <Link
                         to="/"
                         onClick={handleMenu}
-                        className="text-lg p-2 rounded hover:bg-gray-700 w-full"
+                        className="p-2 w-full"
                     >
                         Dashboard
                     </Link>
                     <Link
                         to="/messages"
                         onClick={handleMenu}
-                        className="text-lg p-2 rounded hover:bg-gray-700 w-full"
+                        className=" p-2 w-full"
                     >
                         Messages
                     </Link>
                     <button
                         onClick={handleMenu}
-                        className="mt-5 bg-soft text-white py-3 pl-3 pr-60 rounded-lg hover:bg-red-600 transition"
+                        className="p-2 text-start w-full"
                     >
                         Exit
                     </button>

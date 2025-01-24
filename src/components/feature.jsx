@@ -14,7 +14,7 @@ export default function Features({title, description, icons}) {
       
     <div
       onClick={handleActive}
-      className={`cursor-pointer w-full flex flex-col gap-3 p-4 sm:w-[420px] h-[200px] rounded-xl 
+      className={`cursor-pointer flex flex-col gap-3 p-4 w-full sm:w-[420px] h-[200px] rounded-xl 
             transition duration-500 transform hover:scale-105 
             ${!active ? "bg-accent" : "bg-soft"} shadow-lg hover:shadow-xl`}
     >

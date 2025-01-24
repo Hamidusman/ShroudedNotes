@@ -39,7 +39,7 @@ export default function Scroll({ children }) {
       initial="hidden"
       animate={controls}
       variants={motionVariants}
-      className='w-fit'
+      className='w-full sm:w-auto'
     >
       {children}
     </motion.div>
