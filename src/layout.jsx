@@ -11,11 +11,11 @@ export default function Layout({children}) {
     return (
         <>
             
-            <header className="mx-14 px-6 py-3 z-50 rounded-full bg-primary
-                flex justify-between items-center">
+            <header className="sm:mx-14 px-6 py-3 z-50 rounded-full bg-primary
+                flex justify-between">
                 <img src={Logo} className='w-60'
                 sizes='sm'/>
-                <nav className="hidden mr-24 md:flex gap-14">
+                <nav className="hidden mr-24 lg:flex gap-14">
                     <Link
                         to="/"
                         onClick={handleMenu}
@@ -32,11 +32,11 @@ export default function Layout({children}) {
                     </Link>
                 </nav>
 
-                <button className="hidden md:block bg-accent hover:bg-soft transition duration-500 ease-in-out px-3 py-2 rounded-lg">
+                <button className="hidden lg:block bg-accent hover:bg-soft transition duration-500 ease-in-out px-3 py-2 rounded-lg">
                     Get Started
                 </button>
                 
-                <div className='md:hidden'>
+                <div className='lg:hidden'>
                     <IoMdMenu size={40}
                     onClick={handleMenu}/>
                 </div>

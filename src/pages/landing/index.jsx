@@ -17,7 +17,7 @@ export default function Home() {
 
             <Container>
                 <p className=" px-3 py-1 text-soft border border-soft rounded-full">WIP: ShroudedNote</p>
-                <div className=" hover-text text-center flex flex-wrap font-thin md:px-28 text-soft">
+                <div className=" hover-text text-center flex flex-wrap font-semibold md:px-28 text-soft">
                     <BubbleText>A Novel Approach Into Anonymous Messaging</BubbleText>
                 </div>
                 <p className="text-[18px] inter">Communicate Behind The Veil</p>
